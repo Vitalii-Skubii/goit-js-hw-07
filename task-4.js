@@ -1,5 +1,5 @@
-const decrementEventListener = document.querySelector(".fdi");
-const incrementEventListener = document.querySelector(".fdy");
+const decrementEventListener = document.querySelector('button[data-action="decrement"]');
+const incrementEventListener = document.querySelector('button[data-action="increment"]');
 const addValue = document.querySelector('#value')
 
 let counterValue = 0;
